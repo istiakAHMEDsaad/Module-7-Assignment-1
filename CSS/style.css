@@ -256,3 +256,47 @@ nav > a:hover{
     font-weight: 700;
     line-height: 34px;
 }
+
+
+/*My inspiration section*/
+.inspiration{
+    /*border: 1px solid black;*/
+    width: 1081px;
+    height: 735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 140px;
+    margin-bottom: 144px;
+}
+.inspiration h2{
+    width: 808px;
+    height: 35px;
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 23px;
+}
+.inspiration p{
+    /*border: 1px solid black;*/
+    color: #0D1321;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 76px;
+
+}
+.inspiration .youtube{
+    /*border: 1px solid black;*/
+    width: 1081px;
+    height: 582px;
+}
+.youtube iframe{
+    padding: 30px;
+    border-radius: 50px;
+}
+
+/*Custom CSS*/
