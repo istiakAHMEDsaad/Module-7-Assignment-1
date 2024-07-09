@@ -1,0 +1,128 @@
+/*Google Font API*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Azeret Mono", monospace;*/
+/*0.94861111111111111111111111111111*/
+body{
+    width: 1366px;
+    height: 4975px;
+    background: #FFF;
+}
+/*Universal Selector*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Azeret Mono", monospace;
+}
+
+
+
+/*Nav-bar Section*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*border: 1px solid black;*/
+}
+nav > h2{
+    width: 294px;
+    height: 31px;
+    font-size: 26px;
+    margin-top: 47px;
+    margin-left: 142px;
+    /*border: 1px solid black;*/
+}
+nav > a{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+    color: #0D1321;
+    font-style: normal;
+    text-decoration: none;
+    padding: 16px 22px;
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 0.8;
+    margin-top: 36px;
+    margin-right: 142px;
+    transition: 0.15s;
+}
+nav > a:hover{
+    opacity: 0.8;
+    background: #0D1321;
+    color: #fff;
+}
+
+
+/*Background Image Section*/
+.bg-image{
+    /*border: 1px solid black;*/
+    margin-top: 34px;
+    background-image: url("../assets/Hero-bg.png");
+    width: 1366px;
+    height: 618px;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bg-image p:nth-child(1){
+    /*border: 1px solid black;*/
+    width: 227px;
+    height: 227px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.bg-image h2{
+    /*border: 1px solid black;*/
+    width: 946px;
+    height: 129px;
+    color: #0D1321;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 22px;
+}
+.bg-image p:nth-child(3){
+    /*border: 1px solid black;*/
+    width: 808px;
+    height: 49px;
+    text-align: center;
+    font-size: 15px;
+    color: #0D1321;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.bg-image a{
+    /*border: 1px solid black;*/
+    /*padding: 20px 23px;*/
+    width: 231px;
+    height: 61px;
+    text-align: center;
+    border-radius: 8px;
+    background: #0D1321;
+    color: #FFF;
+    font-size: 19px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.15s;
+    margin-bottom: 42px;
+    border: 1px solid #0D1321;
+}
+.bg-image a:hover{
+    background: #FFF;
+    color: #0D1321;
+    font-weight: 600;
+}
