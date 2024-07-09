@@ -68,6 +68,7 @@ nav > a:hover{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 70px;
 }
 .bg-image p:nth-child(1){
     /*border: 1px solid black;*/
@@ -125,4 +126,133 @@ nav > a:hover{
     background: #FFF;
     color: #0D1321;
     font-weight: 600;
+}
+
+
+/* Development Section CSS */
+.development{
+    /*border: 1px solid black;*/
+    width: 1140px;
+    height: 1321px;
+    margin-left: 140px;
+    margin-right: 144px;
+    margin-bottom: 85px;
+}
+.sub-development{
+    /*border: 1px solid black;*/
+    height: 1169px;
+    width: 897px;
+    margin: 75px 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sub-development h2{
+    /*border: 1px solid black;*/
+    width: 808px;
+    height: 35px;
+    color: #0D1321;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+.sub-development p{
+    /*border: 1px solid black;*/
+    color: #0D1321;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    width: 808px;
+    height: 52px;
+    margin-bottom: 45px;
+}
+.sub-development .card3,
+.sub-development .card2,
+.sub-development .card1{
+    /*border: 1px solid black;*/
+    width: 897px;
+    height: 319px;
+    padding: 45px;
+}
+
+/*Card 1*/
+.card1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+.card-des h3{
+    /*border: 1px solid black;*/
+    width: 370px;
+    height: 68px;
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.card2 .card-des p,
+.card-des p{
+    /*border: 1px solid black;*/
+    width: 444px;
+    height: 49px;
+    color: #0D1321;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 24px;
+    opacity: 0.7;
+    font-style: normal;
+}
+.card2 .card-des a,
+.card-des a{
+    border: 1px solid #0D1321;
+    width: 165px;
+    height: 44px;
+    padding: 11px 19px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.card2 .card-des a > span,
+.card-des a > span{
+    color: #0D1321;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
+/*image*/
+.card-pic{
+    /*border: 1px solid black;*/
+    width: 260px;
+    height: 227px;
+}
+
+
+/*Card 2*/
+.card2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.card2 .card-pic{
+    /*border: 1px solid black;*/
+    width: 260px;
+    height: 227px;
+}
+.card2 .card-des h3{
+    width: 452px;
+    height: 68px;
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
 }
