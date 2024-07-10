@@ -267,7 +267,7 @@ nav > a:hover{
     flex-direction: column;
     align-items: center;
     margin-left: 140px;
-    margin-bottom: 144px;
+    margin-bottom: 143px;
 }
 .inspiration h2{
     width: 808px;
@@ -299,4 +299,87 @@ nav > a:hover{
     border-radius: 50px;
 }
 
-/*Custom CSS*/
+/*current target*/
+
+.current-tg{
+    /*border: 1px solid black;*/
+    height: 436px;
+    width: 1081px;
+    margin: 0 142px 105px 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.current-tg .current-tg-title{
+    /*border: 1px solid black;*/
+    /*margin: 0 136px 23px 136px;*/
+    width: 808px;
+    height: 35px;
+    color: #0D1321;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 23px;
+}
+.current-tg .current-tg-para{
+    /*border: 1px solid black;*/
+    width: 808px;
+    height: 49px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.language{
+    /*border: 1px solid black;*/
+    width: 1081px;
+    height: 283px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.language .language-model{
+    /*border: 1px solid black;*/
+    width: 345px;
+    height: 283px;
+}
+.language .language-model > img{
+    margin: 38px 0 22px 38px;
+}
+.language .language-model > h3{
+    margin: 0 0 7px 38px;
+    color: #0D1321;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 34px;
+}
+.language .language-model > p{
+    margin: 0 38px 23px 38px;
+    color: #0D1321;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.7;
+}
+.language .language-model > a{
+    margin: 0 38px 38px 38px;
+    color: #0D1321;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.language .language-model:nth-child(1){
+    border-radius: 15px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.language .language-model:nth-child(2){
+    border-radius: 15px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.language .language-model:nth-child(3){
+    border-radius: 15px;
+    background: rgba(255, 223, 0, 0.05);
+}
