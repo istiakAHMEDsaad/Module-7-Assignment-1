@@ -1,12 +1,10 @@
 /*Google Font API*/
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 /*font-family: "Azeret Mono", monospace;*/
-/*0.94861111111111111111111111111111*/
+
 body {
     max-width: 1366px;
     margin: 0 auto;
-    /* width: 1366px;
-    height: 4975px; */
     background: #FFF;
 }
 
@@ -24,7 +22,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    /*border: 1px solid black;*/
 }
 
 nav > h2 {
@@ -33,7 +30,6 @@ nav > h2 {
     font-size: 26px;
     margin-top: 47px;
     margin-left: 142px;
-    /*border: 1px solid black;*/
 }
 
 nav > a {
@@ -62,7 +58,6 @@ nav > a:hover {
 
 /*----------------Background Image Section----------------*/
 .bg-image {
-    /*border: 1px solid black;*/
     margin-top: 34px;
     background-image: url("../assets/Hero-bg.png");
     width: 1366px;
@@ -77,7 +72,6 @@ nav > a:hover {
 }
 
 .bg-image p:nth-child(1) {
-    /*border: 1px solid black;*/
     width: 227px;
     height: 227px;
     margin-top: 24px;
@@ -85,7 +79,6 @@ nav > a:hover {
 }
 
 .bg-image h2 {
-    /*border: 1px solid black;*/
     width: 946px;
     height: 129px;
     color: #0D1321;
@@ -97,7 +90,6 @@ nav > a:hover {
 }
 
 .bg-image p:nth-child(3) {
-    /*border: 1px solid black;*/
     width: 808px;
     height: 49px;
     text-align: center;
@@ -110,8 +102,6 @@ nav > a:hover {
 }
 
 .bg-image a {
-    /*border: 1px solid black;*/
-    /*padding: 20px 23px;*/
     width: 231px;
     height: 61px;
     text-align: center;
@@ -141,7 +131,6 @@ nav > a:hover {
 
 /* ----------------Development Section CSS---------------- */
 .development {
-    /*border: 1px solid black;*/
     width: 1140px;
     height: 1321px;
     margin-left: 140px;
@@ -150,7 +139,6 @@ nav > a:hover {
 }
 
 .sub-development {
-    /*border: 1px solid black;*/
     height: 1169px;
     width: 897px;
     margin: 75px 92px;
@@ -161,7 +149,6 @@ nav > a:hover {
 }
 
 .sub-development h2 {
-    /*border: 1px solid black;*/
     width: 808px;
     height: 35px;
     color: #0D1321;
@@ -174,7 +161,6 @@ nav > a:hover {
 }
 
 .sub-development p {
-    /*border: 1px solid black;*/
     color: #0D1321;
     text-align: center;
     font-size: 15px;
@@ -189,7 +175,6 @@ nav > a:hover {
 .sub-development .card3,
 .sub-development .card2,
 .sub-development .card1 {
-    /*border: 1px solid black;*/
     width: 897px;
     height: 319px;
     padding: 45px;
@@ -205,7 +190,6 @@ nav > a:hover {
 }
 
 .card-des h3 {
-    /*border: 1px solid black;*/
     width: 370px;
     height: 68px;
     color: rgba(13, 19, 33, 0.70);
@@ -216,7 +200,6 @@ nav > a:hover {
 
 .card2 .card-des p,
 .card-des p {
-    /*border: 1px solid black;*/
     width: 444px;
     height: 49px;
     color: #0D1321;
@@ -248,7 +231,6 @@ nav > a:hover {
 
 /*image*/
 .card-pic {
-    /*border: 1px solid black;*/
     width: 260px;
     height: 227px;
 }
@@ -264,7 +246,6 @@ nav > a:hover {
 }
 
 .card2 .card-pic {
-    /*border: 1px solid black;*/
     width: 260px;
     height: 227px;
 }
@@ -281,7 +262,6 @@ nav > a:hover {
 
 /*----------------My inspiration section----------------*/
 .inspiration {
-    /*border: 1px solid black;*/
     width: 1081px;
     height: 735px;
     display: flex;
@@ -302,7 +282,6 @@ nav > a:hover {
 }
 
 .inspiration p {
-    /*border: 1px solid black;*/
     color: #0D1321;
     text-align: center;
     font-size: 15px;
@@ -314,7 +293,6 @@ nav > a:hover {
 }
 
 .inspiration .youtube {
-    /*border: 1px solid black;*/
     width: 1081px;
     height: 582px;
 }
@@ -327,7 +305,6 @@ nav > a:hover {
 /*----------------current target----------------*/
 
 .current-tg {
-    /*border: 1px solid black;*/
     height: 436px;
     width: 1081px;
     margin: 0 142px 105px 142px;
@@ -338,8 +315,6 @@ nav > a:hover {
 }
 
 .current-tg .current-tg-title {
-    /*border: 1px solid black;*/
-    /*margin: 0 136px 23px 136px;*/
     width: 808px;
     height: 35px;
     color: #0D1321;
@@ -350,7 +325,6 @@ nav > a:hover {
 }
 
 .current-tg .current-tg-para {
-    /*border: 1px solid black;*/
     width: 808px;
     height: 49px;
     font-size: 15px;
@@ -362,7 +336,6 @@ nav > a:hover {
 }
 
 .language {
-    /*border: 1px solid black;*/
     width: 1081px;
     height: 283px;
     display: flex;
@@ -372,7 +345,6 @@ nav > a:hover {
 }
 
 .language .language-model {
-    /*border: 1px solid black;*/
     width: 345px;
     height: 283px;
 }
@@ -423,7 +395,6 @@ nav > a:hover {
 
 /*----------------My next target section----------------*/
 .next-tg {
-    /*border: 1px solid black;*/
     width: 1081px;
     height: 821px;
     display: flex;
@@ -442,7 +413,6 @@ nav > a:hover {
     align-items: center;
     border-radius: 15px;
     background: #FFF;
-    /*margin-bottom: 23px;*/
 }
 
 .next-tg .next-tg-card #react {
@@ -507,7 +477,6 @@ nav > a:hover {
 }
 
 .next-tg h2 {
-    /*border: 1px solid black;*/
     width: 808px;
     height: 35px;
     color: #0D1321;
@@ -518,7 +487,6 @@ nav > a:hover {
 }
 
 .next-tg p {
-    /*border: 1px solid black;*/
     width: 808px;
     height: 49px;
     color: #0D1321;
@@ -545,7 +513,6 @@ nav > a:hover {
 }
 
 .myFooterContent {
-    /*border: 1px solid black;*/
     height: 175px;
     width: 990px;
     margin: 61px 45px;
@@ -574,7 +541,7 @@ nav > a:hover {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 162.5% */
+    line-height: 24px;
     margin-bottom: 23px;
 }
 #myFooter .myFooterContent div > input{
@@ -587,7 +554,6 @@ nav > a:hover {
     font-size: 15px;
 }
 #myFooter .myFooterContent div > input::placeholder {
-    /*border: 1px solid black;*/
     width: 297px;
     height: 18px;
 }
@@ -623,7 +589,6 @@ nav > a:hover {
     justify-content: space-between;
 }
 .footer-icon p{
-    /*border: 1px solid black;*/
     width: 475px;
     height: 22px;
     color: #0D1321;
@@ -635,7 +600,6 @@ nav > a:hover {
     margin-left: 142px;
 }
 .footer-icon .footer-social-icon{
-    /*border: 1px solid black;*/
     margin-right: 142px;
     width: 148px;
     height: 34px;
@@ -646,7 +610,6 @@ nav > a:hover {
     font-style: normal;
 }
 .footer-icon .footer-social-icon img{
-    /*border: 1px solid black;*/
     height: 34px;
     width: 34px;
     object-fit: contain;
