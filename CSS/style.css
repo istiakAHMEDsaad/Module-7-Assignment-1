@@ -3,8 +3,10 @@
 /*font-family: "Azeret Mono", monospace;*/
 /*0.94861111111111111111111111111111*/
 body {
-    width: 1366px;
-    height: 4975px;
+    max-width: 1366px;
+    margin: 0 auto;
+    /* width: 1366px;
+    height: 4975px; */
     background: #FFF;
 }
 
